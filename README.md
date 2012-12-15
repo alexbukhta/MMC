@@ -3,6 +3,10 @@ MMC
 
 Mobile Medical Control
 
+Welcome to my first Web App / Arduino project. If you have any comments or suggests, feel free to reach out to me at alexbukhta@gmail.com. Thank you!
+
+---------
+
 Welcome to Mobile Medical Control! This product is designed to allow you, a doctor, to control injections into your patients using an arduino system. In today's world, it's easy to get caught up in the whirlwind that is our lives. With this device, control your patient's injections from anywhere in the world that has internet connection! It consists of two medications contained in two IV's, and will then release either medication depending on your choice into the patient.
 
 Using our device could not be simpler. Please let a dedicated medical technician set up the arduino system hooked up the the IV system. It will be a double rotating valve, so prepare two medications, each of which will be connected through tubing that is connected. Each patient will have access to one arduino, since only one patient can be hooked up to each IV. Also please let a dedicated technician set up a router that will be connected to the arduino. This router will be connected to the client that is hosting the server through apache and mysql servers, which will run our files. Using your mobile phone on this wireless router, you can contact the server being hosted at that server's ip (which we will use as 192.168.1.102 for this documentation; you can easily find it, by running ifconfig in the terminal of the client to see which IP it is broadcasting on) at http://192.168.1.102/mmc/html/login.php.
